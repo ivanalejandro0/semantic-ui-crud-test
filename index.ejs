@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="breakpoint" content="phone" media="(max-width: 480px)">
+    <meta name="breakpoint" content="desktop" media="(min-width: 480px)">
+    <meta name="breakpoint" content="retina" media="only screen and (-webkit-min-device-pixel-ratio : 2)">
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+
+  <body>
+    <div id="app" />
+
+    <script src="<%= htmlWebpackPlugin.options.path %>bundle.js" type="text/javascript"></script>
+
+  </body>
+
+</html>
